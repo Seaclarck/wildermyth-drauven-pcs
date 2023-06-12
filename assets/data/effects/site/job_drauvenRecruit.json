@@ -3,7 +3,7 @@
 "info": {
 	"dataVersion": 1,
 	"sourceFile": "site/job_drauvenRecruit",
-	"modId": "wildermyth-drauven-pcs-edit",
+	"modId": "wildermyth-drauven-pcs",
 	"author": "Ironskink"
 },
 "type": "OVERLAND_ABILITY",
