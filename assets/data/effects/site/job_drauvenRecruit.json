@@ -3,7 +3,7 @@
 "info": {
 	"dataVersion": 1,
 	"sourceFile": "site/job_drauvenRecruit",
-	"modId": "wildermyth-drauven-pcs",
+	"modId": "wildermyth-drauven-pcs-edit",
 	"author": "Ironskink"
 },
 "type": "OVERLAND_ABILITY",
@@ -58,6 +58,9 @@
 			},
 			{
 				"outcome": { "class": "Branch", "branchEvent": "job_inspiredDrauvenHero_branch" }
+			},
+			{
+				"outcome": { "class": "Branch", "branchEvent": "job_drauvenRecruit_trainingBranch" }
 			}
 		]
 	}
