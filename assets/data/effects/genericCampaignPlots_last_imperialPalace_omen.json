@@ -3,6 +3,7 @@
 "info": {
 	"dataVersion": 1,
 	"sourceFile": "genericCampaignPlots_last_imperialPalace_omen",
+	"modId": "wildermyth-drauven-pcs",
 	"author": "Douglas Austin",
 	"genericCampaignInfo": {
 		"chapter": "last",
@@ -28,13 +29,13 @@
 	{
 		"template": "HERO_BY_SCORE",
 		"scoreFunction": null,
-		"scoreThreshold": "max((((POET*1.3)+BOOKISH)+ROMANTIC))",
+		"scoreThreshold": "max(((((POET*1.3)+BOOKISH)+ROMANTIC)+(drauven*50)))",
 		"notAlreadyMatchedAs": []
 	},
 	{
 		"role": "hero2",
 		"template": "HERO_BY_SCORE",
-		"scoreFunction": "LEVEL",
+		"scoreFunction": "LEVEL+(100*drauven)",
 		"notAlreadyMatchedAs": [ "hero" ]
 	},
 	{
@@ -363,8 +364,8 @@
 							"textKey": "~01~~panel_004~2_hero",
 							"pointerOwner": "hero",
 							"location": "bottomLeft",
-							"padXFraction": 0.201,
-							"padYFraction": 0.063,
+							"padXFraction": 0.202,
+							"padYFraction": 0.007,
 							"widthFraction": 0.7668515,
 							"shrinkToFitText": true,
 							"pointerAdjust": {

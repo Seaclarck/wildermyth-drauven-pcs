@@ -3,6 +3,7 @@
 "info": {
 	"dataVersion": 1,
 	"sourceFile": "genericCampaignPlots_last_imperialPalace_keystone_victory",
+	"modId": "wildermyth-drauven-pcs",
 	"author": "Douglas Austin"
 },
 "type": "PLOT",

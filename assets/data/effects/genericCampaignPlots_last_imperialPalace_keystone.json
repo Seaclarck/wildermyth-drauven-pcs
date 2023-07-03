@@ -3,6 +3,7 @@
 "info": {
 	"dataVersion": 1,
 	"sourceFile": "genericCampaignPlots_last_imperialPalace_keystone",
+	"modId": "wildermyth-drauven-pcs",
 	"author": "Douglas Austin"
 },
 "type": "PLOT_MISSION_EVENT",
@@ -18,14 +19,14 @@
 	{
 		"role": "hero",
 		"template": "PICK_BY_SCORE",
-		"scoreFunction": "1000-AGE_IN_YEARS",
+		"scoreFunction": "(1000-AGE_IN_YEARS)-(500*drauven)",
 		"notAlreadyMatchedAs": []
 	},
 	{
 		"role": "hero2",
 		"template": "PICK_BY_SCORE",
 		"choose": "BY_SCORE_OPTIONAL",
-		"scoreFunction": "LEVEL",
+		"scoreFunction": "LEVEL+(100*drauven)",
 		"notAlreadyMatchedAs": [ "hero" ]
 	},
 	{

@@ -3,6 +3,7 @@
 "info": {
 	"dataVersion": 1,
 	"sourceFile": "genericCampaignPlots_last_imperialPalace_capstone",
+	"modId": "wildermyth-drauven-pcs",
 	"author": "Douglas Austin",
 	"declaredEncounterResults": [ "victory", "defeat" ]
 },
